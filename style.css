@@ -1,0 +1,57 @@
+/* ===== Header Area start ==== */
+header {
+    background: #e3f2fd;
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.carouse-img {
+    height: 400px;
+}
+
+.breadcrumb {
+    background: #dddd;
+    padding: 6px;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.progress {
+    margin: 15px 0;
+}
+
+footer {
+    background: #17a2b8;
+    color: white;
+    font-size: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 19px;
+}
+
+.dropdown {
+	z-index: 9999;
+	text-align: center;
+}
+.accordion-button::after {
+	flex-shrink: 0;
+	width: 0;
+	height: 0;
+	content: "";
+
+}
+
+.accordion-flush .accordion-item {
+	box-shadow: 1px 1px 5px #dddd;
+    border: 1px solid rgba(0, 0, 0, 0.427) !important;
+}
+
+
+/* ===== Header Area End ==== */
